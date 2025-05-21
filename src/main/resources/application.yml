@@ -1,0 +1,15 @@
+
+spring:
+    aplication:
+        name: blockchain-api
+        
+server:
+    port: 8081
+
+google:
+    cloud:
+        web3:
+            uri: ${GOOGLE_API_BLOCKCHAIN}
+
+private:
+    key: ${WALLET_PRIVATE_KEY}
